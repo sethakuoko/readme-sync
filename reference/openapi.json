@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "UXCam Seth API",
+    "title": "UXCam  API",
     "version": "1.0.0",
     "description": "Demo analytics API for session recording and user behavior tracking."
   },
@@ -269,5 +269,7 @@
         }
       }
     }
-  }
+  },
+  "components": {},
+  "x-readme": {}
 }
