@@ -12,7 +12,7 @@ require_once('vendor/autoload.php');
 
 $client = new \GuzzleHttp\Client();
 
-$response = $client->request('GET', 'https://uxcam.sethakuoko.online/api/v1/crashes/id');
+$response = $client->request('POST', 'https://uxcam.sethakuoko.online/api/v1/crashes');
 
 echo $response->getBody();
 ```
@@ -23,12 +23,18 @@ echo $response->getBody();
 
 # Step 1
 
-<!-- php@ -->
+<!-- php@1 -->
 
 Step description
 
 # Step 2
 
-<!-- php@ -->
+<!-- php@2-5 -->
 
 Step 2 description
+
+# Step 3
+
+<!-- php@ -->
+
+step 3 desc
