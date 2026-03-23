@@ -1,6 +1,8 @@
 ---
 title: Welcome to mainaccount
 hidden: false
+link:
+  new_tab: false
 ---
 <Callout icon="📘" theme="info">
   **Template:**  Delete this callout and edit this page with your content and links.
@@ -8,6 +10,7 @@ hidden: false
 
 <Cards>
   {/* Edit the props below to customize these components */}
+
   <Card title="Quick Start" href="#" icon="fa-duotone fa-rocket-launch">Learn how to get started with our product</Card>
 
   <Card title="API Reference" href="#" icon="fa-duotone fa-code-simple">Explore endpoints and build your integration</Card>
