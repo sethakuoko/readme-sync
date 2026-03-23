@@ -11,16 +11,27 @@
   ],
   "tags": [],
   "paths": {
-    "/new-endpoint": {
-      "get": {
+    "/list-posts": {
+      "trace": {
         "summary": "New Endpoint",
         "description": "This is your first endpoint! Edit this page to start documenting your API.",
-        "operationId": "get_new-endpoint",
         "responses": {
           "200": {
             "description": "Successful response"
           }
-        }
+        },
+        "operationId": "trace_list-posts",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "pageSize",
+            "schema": {
+              "type": "number",
+              "default": "50"
+            },
+            "required": true
+          }
+        ]
       }
     }
   },
