@@ -2,7 +2,7 @@
 title: page 1
 excerpt: This is the page description
 deprecated: true
-hidden: true
+hidden: false
 icon: 🤪
 link:
   new_tab: true
