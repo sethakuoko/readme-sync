@@ -2,7 +2,11 @@
 title: page 1
 excerpt: This is the page description
 deprecated: false
-hidden: false
+hidden: true
+icon: 🤪
+link:
+  new_tab: true
+  url: https://uxcam.sethakuoko.online
 metadata:
   robots: index
 ---
