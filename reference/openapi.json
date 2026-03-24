@@ -259,14 +259,50 @@
         }
       }
     },
-    "/auth/token": {
+    "/auth/token/{id}": {
       "post": {
         "summary": "Generate API access token",
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "asdfasdf",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "default": "asdfasdf"
+                    }
+                  },
+                  "required": [
+                    "name"
+                  ]
+                }
+              }
+            }
           }
-        }
+        },
+        "operationId": "post_auth-token-id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "schema": {
+              "type": "string",
+              "default": "asdfasdf"
+            },
+            "required": true
+          },
+          {
+            "in": "query",
+            "name": "parasam",
+            "schema": {
+              "type": "string",
+              "default": "asdf"
+            }
+          }
+        ]
       }
     }
   }
