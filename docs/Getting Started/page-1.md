@@ -1,7 +1,7 @@
 ---
 title: page 1
 excerpt: This is the page description
-deprecated: false
+deprecated: true
 hidden: true
 icon: 🤪
 link:
