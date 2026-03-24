@@ -4,5 +4,5 @@ fullscreen: false
 hidden: false
 ---
 <Accordion title="My Accordion Title" icon="fa-info-circle">
-  laskdjflaskdflasdkfjasdfhiasudjfh,smchapsieufhks,mhjfasdifhkasdfhasljdf
+  laskdjflaskdflasdkfjasdfhiasudjfh,smchapsieufhks,mhjfasdifhkasdfhasljdfasdfasdfasdf
 </Accordion>
